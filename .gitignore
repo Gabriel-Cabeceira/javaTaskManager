@@ -1,0 +1,70 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Kotlin / Gradle extras ###
+.kotlin/
+.gradletasknamecache
+
+### Logs ###
+*.log
+logs/
+
+### Variáveis de ambiente e segredos ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-secret*.properties
+application-secret*.yml
+*.pem
+*.key
+
+### Bancos locais (H2/SQLite) ###
+*.db
+*.mv.db
+*.trace.db
+*.sqlite
+
+### Sistema operacional ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Claude Code (configuração local) ###
+.claude/settings.local.json
